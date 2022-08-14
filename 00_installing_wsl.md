@@ -25,4 +25,4 @@ You can find the Control Panel by searching "Control Panel" in the start bar.
 
 <!-- https://gohugo.io/content-management/image-processing/ -->
 
-![screenshot](control_panel.png)
+![screenshot](../control_panel.png)
