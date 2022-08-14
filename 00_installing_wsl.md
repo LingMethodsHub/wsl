@@ -57,11 +57,28 @@ After your computer has restarted, launch the Windows Store, and search for "Ubu
 
 #### 2. Launch Ubuntu
 
-You can find Ubuntu, after it has been installed, but searching "Ubuntu" in the search bar. Launching it will open a [command line interface](/cli)
+You can find Ubuntu, after it has been installed, but searching "Ubuntu" in the search bar. Launching it will open a [command line interface](/cli).
 
+#### 3. Set a username
 
+You will need to set a username for Ubuntu on your first launch. It doesn't have to be the same as your Windows username, but you might as well make it the same just to keep things easy. Just type in the username you want, and hit enter.
 
+#### 4. Set a password
 
+You'll also need to set a password for your Ubuntu account. Again, this doesn't *need* to be the same as your computer password.
 
+{{% notice note %}}
+As you are typing in your password, you won't see the cursor move, or see blanked out characters like `*` like you are probably used to. That's just how password entry in command lines work, it's ok.
+{{% /notice %}}
 
+You'll need re-enter your chosen password to confirm.
 
+## Finding your files
+
+In most command line interfaces, to get to your home directory, you type `cd ~`, which will still work in Windows Subsystem for Linux, but `~` isn't where your *Windows* files are. Instead, they're "mounted" at `/mnt/c/users/<USERNAME>` where `<USERNAME>` is your Windows username. If you're not sure what your Windows username is, inside Ubuntu type
+
+```bash
+cd /mnt/c/users/
+```
+
+Then run `ls` to see the list of user directories. Yours should be in there.
