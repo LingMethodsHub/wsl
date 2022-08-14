@@ -1,8 +1,8 @@
 ---
 title: Installing Windows Subsystem for Linux
+author: Josef Fruehwald
 weight: 1
 draft: false
-toc: true
 ---
 
 Installing a linux distribution on windows involves two main steps:
@@ -29,11 +29,38 @@ Inside control panel, click on *Programs and Features*.
 <!-- I don't know why, but I have to link the imgage up a level -->
 ![A screenshot of the control panel, highlighting where programs and features are.](../images/control_panel.png)
 
-#### 3. Turn on WSL
+#### 3. Turn on Windows Features
 
 Once inside Programs and Features, click on *Turn Windows Features On or Off* on the left hand side.
 
 ![A screenshot of Programs and Features, highlighting the location of Turn Windows Features On or Off.](../images/Programs_and_features.png)
+
+#### 4. Turn on WSL
+
+A pop up window should appear. Scroll down to find "Windows Subsystem for Linux." Click the box so it is checked. Then press ok.
+
+![A screenshot highlighting the item Windows Subsystem for Linux that should be checked off.](../images/windows_features.png)
+
+#### 5. Restart your computer
+
+Your computer will need to restart before we continue the rest of the process. A window should open after hitting "OK" on the previous step asking if you want to restart now.
+
+## Installing and Configuring a Linux Distribution
+
+There are a few different linux distributions to choose from, but most online tutorials for WSL seem to assume you're installing Ubuntu, so I will also.
+
+#### 1. Install Ubuntu
+
+After your computer has restarted, launch the Windows Store, and search for "Ubuntu". On its store page, click on "Get" to install it.
+
+![A screenshot of Ubuntu in the Windows Store](../images/windows_store.png)
+
+#### 2. Launch Ubuntu
+
+You can find Ubuntu, after it has been installed, but searching "Ubuntu" in the search bar. Launching it will open a [command line interface](/cli)
+
+
+
 
 
 
