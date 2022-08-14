@@ -24,11 +24,16 @@ You can find the Control Panel by searching "Control Panel" in the start bar.
 
 #### 2. Go to "Programs and Features"
 
+Inside control panel, click on *Programs and Features*.
 
 <!-- I don't know why, but I have to link the imgage up a level -->
-![A screenshot of the control panel, highlighting where programs and features are.](../control_panel.png) {max-width: 50em}
+![A screenshot of the control panel, highlighting where programs and features are.](../images/control_panel.png)
 
 #### 3. Turn on WSL
+
+Once inside Programs and Features, click on *Turn Windows Features On or Off* on the left hand side.
+
+![A screenshot of Programs and Features, highlighting the location of Turn Windows Features On or Off.](../images/Programs_and_features.png)
 
 
 
