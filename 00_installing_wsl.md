@@ -25,6 +25,4 @@ You can find the Control Panel by searching "Control Panel" in the start bar.
 
 <!-- https://gohugo.io/content-management/image-processing/ -->
 
-{{% $image := .Resources.GetMatch control_panel.png %}}
-
-![screenshot]({{% $image.RelPermalink %}})
+![screenshot](control_panel.png)
