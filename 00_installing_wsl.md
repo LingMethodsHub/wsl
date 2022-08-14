@@ -18,15 +18,18 @@ Note: you will have to restart your computer after step 1.
 
 Windows Subsystem for Linux is a Windows feature that you'll need to turn on in the Control Panel.
 
-#### Launch Control Panel
+#### 1. Launch Control Panel
 
 You can find the Control Panel by searching "Control Panel" in the start bar.
 
-#### Go to "Programs and Features"
+#### 2. Go to "Programs and Features"
+
 
 <!-- I don't know why, but I have to link the imgage up a level -->
-![A screenshot of the control panel, highlighting where programs and features are.](../control_panel.png)
+![A screenshot of the control panel, highlighting where programs and features are.](../control_panel.png) {max-width: 100ch}
 
-#### Turn on WSL
+#### 3. Turn on WSL
+
+
 
 
