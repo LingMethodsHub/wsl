@@ -26,7 +26,7 @@ You can find the Control Panel by searching "Control Panel" in the start bar.
 
 
 <!-- I don't know why, but I have to link the imgage up a level -->
-![A screenshot of the control panel, highlighting where programs and features are.](../control_panel.png) {max-width: 100ch}
+![A screenshot of the control panel, highlighting where programs and features are.](../control_panel.png) {max-width: 50ch}
 
 #### 3. Turn on WSL
 
