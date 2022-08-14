@@ -23,5 +23,5 @@ You can find the Control Panel by searching "Control Panel" in the start bar.
 
 ### Go to "Programs and Features"
 
-![A screenshot of the Windows Control Panel, highlighting where Programs and Features is](assets/control_panel.png)
+{{ $image := resources.Get "assets/control_panel.png"}}
 
