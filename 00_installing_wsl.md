@@ -23,5 +23,5 @@ You can find the Control Panel by searching "Control Panel" in the start bar.
 
 ### Go to "Programs and Features"
 
-{{ $image := resources.Get "assets/control_panel.png"}}
+{{ $image := resources.Get "assets/control_panel.png" }}
 
