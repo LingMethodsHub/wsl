@@ -3,6 +3,9 @@ title: Installing Windows Subsystem for Linux
 author: Josef Fruehwald
 date: 2022-9-1
 license: "CC-BY-SA 4.0"
+format: 
+  html: default
+  pdf: default
 ---
 
 Installing a linux distribution on windows involves two main steps:
