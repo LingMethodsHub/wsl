@@ -86,3 +86,7 @@ cd /mnt/c/users/
 ```
 
 Then run `ls` to see the list of user directories. Yours should be in there.
+
+## Handout Version
+
+[Handout PDF](00_installing_wsl.pdf)
