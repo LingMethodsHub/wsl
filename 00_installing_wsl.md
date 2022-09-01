@@ -1,18 +1,17 @@
 ---
 title: Installing Windows Subsystem for Linux
 author: Josef Fruehwald
-weight: 1
-draft: false
+license: "CC-BY-SA 4.0"
 ---
 
 Installing a linux distribution on windows involves two main steps:
 
-1. Enabling the windows subsystem for linux (wsl) feature.
-2. Installing and setting up a linux distribution.
+1.  Enabling the windows subsystem for linux (wsl) feature.
+2.  Installing and setting up a linux distribution.
 
-{{% notice note %}}
+::: callout-note
 Note: you will have to restart your computer after step 1.
-{{% /notice %}}
+:::
 
 ## Enabling Windows Subsystem for Linux
 
@@ -27,19 +26,20 @@ You can find the Control Panel by searching "Control Panel" in the start bar.
 Inside control panel, click on *Programs and Features*.
 
 <!-- I don't know why, but I have to link the imgage up a level -->
-![A screenshot of the control panel, highlighting where programs and features are.](../images/control_panel.png)
+
+![A screenshot of the control panel, highlighting where programs and features are.](images/control_panel.png)
 
 #### 3. Turn on Windows Features
 
 Once inside Programs and Features, click on *Turn Windows Features On or Off* on the left hand side.
 
-![A screenshot of Programs and Features, highlighting the location of Turn Windows Features On or Off.](../images/Programs_and_features.png)
+![A screenshot of Programs and Features, highlighting the location of Turn Windows Features On or Off.](images/Programs_and_features.png)
 
 #### 4. Turn on WSL
 
 A pop up window should appear. Scroll down to find "Windows Subsystem for Linux." Click the box so it is checked. Then press ok.
 
-![A screenshot highlighting the item Windows Subsystem for Linux that should be checked off.](../images/windows_features.png)
+![A screenshot highlighting the item Windows Subsystem for Linux that should be checked off.](images/windows_features.png)
 
 #### 5. Restart your computer
 
@@ -53,7 +53,7 @@ There are a few different linux distributions to choose from, but most online tu
 
 After your computer has restarted, launch the Windows Store, and search for "Ubuntu". On its store page, click on "Get" to install it.
 
-![A screenshot of Ubuntu in the Windows Store](../images/windows_store.png)
+![A screenshot of Ubuntu in the Windows Store](images/windows_store.png)
 
 #### 2. Launch Ubuntu
 
@@ -67,9 +67,9 @@ You will need to set a username for Ubuntu on your first launch. It doesn't have
 
 You'll also need to set a password for your Ubuntu account. Again, this doesn't *need* to be the same as your computer password.
 
-{{% notice note %}}
+::: callout-note
 As you are typing in your password, you won't see the cursor move, or see blanked out characters like `*` like you are probably used to. That's just how password entry in command lines work, it's ok.
-{{% /notice %}}
+:::
 
 You'll need re-enter your chosen password to confirm.
 
@@ -77,7 +77,7 @@ You'll need re-enter your chosen password to confirm.
 
 In most command line interfaces, to get to your home directory, you type `cd ~`, which will still work in Windows Subsystem for Linux, but `~` isn't where your *Windows* files are. Instead, they're "mounted" at `/mnt/c/users/<USERNAME>` where `<USERNAME>` is your Windows username. If you're not sure what your Windows username is, inside Ubuntu type
 
-```bash
+``` bash
 cd /mnt/c/users/
 ```
 
