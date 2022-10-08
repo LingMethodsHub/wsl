@@ -1,5 +1,6 @@
 ---
 title: "Windows Subsystem for Linux"
+date: 2022-9-1
 listing:
   contents:
     - "00_installing_wsl.md"
