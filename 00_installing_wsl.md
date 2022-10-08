@@ -1,6 +1,8 @@
 ---
 title: Installing Windows Subsystem for Linux
-author: Josef Fruehwald
+author: 
+  - name: Josef Fruehwald
+    url: "https://jofrhwld.github.io/"
 date: 2022-9-1
 license: "CC-BY-SA 4.0"
 format: 
