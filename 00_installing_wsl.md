@@ -8,6 +8,11 @@ license: "CC-BY-SA 4.0"
 format: 
   html: default
   pdf: default
+image: "images/windows_features.png"
+twitter-card:
+  image: "images/windows_features.png"
+open-graph:
+  image: "images/windows_features.png"
 ---
 
 Installing a linux distribution on windows involves two main steps:
